@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <link rel="stylesheet" href="reviewV2.css">
+</head>
+
+<body>
+   <div class="hero">
+      <h1>Customer Review</h1>
+      <div class="review-box">
+         <div id="slide">
+            <div class="card">
+               <div class="profile">
+                  <img src="imanges/jeff-bezos-ceo-profile.jpg">
+                  <div>
+                     <h3>Jeff-Bezos</h3>
+                     <p>founder of ammazon</p>
+                  </div>
+
+               </div>
+               <p>This Funiture Company always give my the best experince in the world that i never had before.</p>
+            </div>
+            <div class="card">
+               <div class="profile">
+                  <img src="imanges/download (1).jpg">
+                  <div>
+                     <h3>Bill Gate</h3>
+                     <p>founder of micrisoft</p>
+                  </div>
+
+               </div>
+               <p>This Funiture Company always give my the best experince in the world that i never had before.</p>
+            </div>
+            <div class="card">
+               <div class="profile">
+                  <img src="imanges/download.jpg">
+                  <div>
+                     <h3>Jeff-Bezos</h3>
+                     <p>founder of ammazon</p>
+                  </div>
+
+               </div>
+               <p>This Funiture Company always give my the best experince in the world that i never had before.</p>
+            </div>
+            <div class="card">
+               <div class="profile">
+                  <img src="imanges/jeff-bezos-ceo-profile.jpg">
+                  <div>
+                     <h3>Jeff-Bezos</h3>
+                     <p>founder of ammazon</p>
+                  </div>
+
+               </div>
+               <p>This Funiture Company always give my the best experince in the world that i never had before.</p>
+            </div>
+         </div>
+
+         <div class="sidebar">
+            <img src="imanges/up-arrow.png" id="upArrow">
+            <img src="imanges/down-arrow.png" id="downArrow">
+         </div>
+      </div>
+   </div>
+
+
+<script>
+   var slide = document.getElementById("slide");
+   var upArrow = document.getElementById("upArrow");
+   var downArrow = document.getElementById("downArrow");
+
+   let x = 0;
+
+   upArrow.onclick = function(){
+      if(x > "-1140"){
+      x = x - 380;
+      slide.style.top = x + "px"; 
+   }
+
+}
+downArrow.onclick = function(){
+      if(x < "0"){
+      x = x + 380;
+      slide.style.top = x + "px"; 
+   }
+   
+}
+  </script>
+</body>
+
+</html>
