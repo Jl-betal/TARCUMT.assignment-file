@@ -1,28 +1,22 @@
 *{
-    margin:0;
-    padding: 0;
-    box-sizing: border-box;
+    box-sizing: fix;
     font-family: 'Popping',sans-serif;
 }
 
-body{
-     background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.1)), url("imanges/SEN\ walnut\ slider_1500x790-1500x790.jpg");
+div.content{
+     background-image: url("imanges/SEN\ walnut\ slider_1500x790-1500x790.jpg");
      background-size: cover;
-    
 }
-.container{
-    margin: 5%;
-}
+
 .container h2{
-    color:#fff;
-    font-size: 32px;
+    color: #fff;
+    font-size: 30px;
     text-align: center;
-    background-color: grey;
-    border-radius: 50px;
-    margin:5%;
-    margin-left: 25%;
-    margin-right: 25%;
-    padding: 2%;
+    font-style: oblique;
+    margin: 0;
+    padding: 5%;
+    border-width: 1px;
+  
 }
 
 .row{
@@ -78,10 +72,11 @@ body{
     font-size: 15px;
     border: 1px solid #e33058;
     border-radius: 6px;
-    margin-top: 30px;
+    margin-bottom: 10%;
     cursor: pointer;
     transition: background 0.5s;
 }
+
 
 .col input:hover{
     background: #e33058;
@@ -123,7 +118,8 @@ footer{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 1rem 0 3rem 0;
+    margin: 0;
+    padding: 5%;
 }
 
 .tandc li{
